@@ -1,0 +1,14 @@
+<script>
+  function add(a) {
+    return function (b) {
+      console.log(a + b);
+    };
+  }
+  let addTen = add(10);
+
+  addTen(2); // 12
+  addTen(3); // 13
+  addTen(4); // 14
+
+  console.dir(addTen)
+</script>

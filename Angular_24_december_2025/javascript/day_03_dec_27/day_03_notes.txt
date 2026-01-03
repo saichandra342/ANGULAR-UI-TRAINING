@@ -1,0 +1,75 @@
+Datatypes
+=========
+1. Primitive
+      number  
+      string
+      boolean : true / false
+      undefined
+      bigint
+      symbol
+
+2. Non-Primitive
+        object  : object / array
+
+
+undefined vs null
+=================
+1. when a variable is declared without any value, javascript assigns 'undefined' value
+   'null' is an intentional value assigned by developers
+2. typeof 'undefined' is undefined, type of 'null' is object
+
+
+
+Javascript : Programming Language , Follows ECMAScript standards
+ECMA : European Computer Menufecturer Association
+ECMAScript : Set Of standards, followed by Javascript
+
+ES_5     Before June 2015
+ES_6     june 2015  ( let , const , class, extends, module, REST .....)
+ES_7     2016
+ES_8     2017
+ES_9     2018
+ES_10     2019
+ES_11     2020
+ES_12     2021
+ES_13     2022
+ES_14     2023
+ES_15     2024
+ES_16     2025
+
+
+
+Variables
+=========
+-Variables are containers for storing data values. 
+ Variable is a name of memory location.
+-Variables in Javascript can be declared by using either one of the below 3 keywords:
+ 1. var   
+ 2. let
+ 3. const
+
+	var						let						 const
+======================================================================
+1.since begining		 1.ECMASCRIPT-6(2015)		1.ECMASCRIPT-6(2015)
+2.value can be changed   2.value can be changed     2.cann't be changed
+3.initialization is		 3.initialization is		3.mandatory
+	not mandatory           not mandatory	
+4.can be redeclared		 4.cann't be redeclared		4.cann't be redeclared
+5.function/global		 5.block/function/global	5.block/function/global
+6.TDZ - No			 	 6.TDZ - Yes				6.TDZ - Yes
+
+N:p - All variables (var,let,const) are hoisted but only 'var' variables are usable/reachable before initialization.
+-let/const variables are not reachable/usable before initialization (Temporal Dead Zone)
+
+
+Variable Scope
+===============
+1. global
+2. function
+3. block
+
+
+Strict Mode
+============
+-Javascript code can be executed either 1.normal 2.strict mode
+-in strict mode few mistakes are converted to erros
